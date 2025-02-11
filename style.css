@@ -1,6 +1,4 @@
-/*********************************************
-  General Styles
-**********************************************/
+/* General Styles */
 
 * {
     margin: 0;
@@ -16,9 +14,7 @@ body {
     background-color: #f5f5f5;
   }
 
-  /*********************************************
-    Header
-  **********************************************/
+  /* Header */
   header {
     display: flex;
     justify-content: space-between;
@@ -52,14 +48,11 @@ body {
     color: #ffcc00;
   }
   
-  /* Indicate active page link if desired */
   nav ul li a.active {
     color: #ffcc00;
   }
   
-  /*********************************************
-    Hero Sections
-  **********************************************/
+  /* Hero Sections */
   .hero {
     text-align: center;
     background-size: cover;
@@ -78,29 +71,23 @@ body {
     line-height: 1.2;  
   }
   
-  /* For the index page hero */
   .hero.index {
     background: url("images/cafe-background.jpg") no-repeat center center/cover;
   }
   
-  /* About page hero */
   .hero.about {
     background: url("images/about-banner.jpg") no-repeat center center/cover;
   }
   
-  /* Contact page hero */
   .hero.contact {
     background: url("images/contact-banner.jpg") no-repeat center center/cover;
   }
   
-  /* Book a Space page hero */
   .hero.book {
     background: url("images/book-banner.jpg") no-repeat center center/cover;
   }
   
-  /*********************************************
-    Buttons
-  **********************************************/
+  /* Buttons */
   .btn {
     background-color: #ffcc00;
     color: black;
@@ -128,12 +115,10 @@ body {
     color: black;
   }
   
-  /*********************************************
-    Features Section
-  **********************************************/
+  /* Features Section */
   .features {
     display: flex;
-    flex-wrap: wrap;       /* Wrap on small screens */
+    flex-wrap: wrap;      
     justify-content: center;
     background-color: white;
     padding: 50px 20px;
@@ -150,9 +135,7 @@ body {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   }
   
-  /*********************************************
-    Main Content Wrapper
-  **********************************************/
+  /* Main Content Wrapper */
   .content {
     max-width: 900px;
     margin: 50px auto;
@@ -169,9 +152,7 @@ body {
     margin: 20px 0;
   }
   
-  /*********************************************
-    Contact Form
-  **********************************************/
+  /* Contact Form */
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -196,9 +177,7 @@ body {
     border-radius: 4px;
   }
   
-  /*********************************************
-    Services List
-  **********************************************/
+  /* Services List */
   .services-list {
     list-style: none;
     padding: 0;
@@ -210,16 +189,13 @@ body {
     margin: 10px 0;
   }
   
-  /*********************************************
-    Footer
-  **********************************************/
+  /* Footer */
   footer {
     text-align: center;
     background-color: #333;
     color: white;
     padding: 10px;
     width: 100%;
-    /* Remove 'position: fixed; bottom: 0;' to let footer be at page bottom */
   }
 
   body {
